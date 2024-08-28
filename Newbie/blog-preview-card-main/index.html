@@ -10,19 +10,86 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    body {background-color: hsl(47, 88%, 63%);}
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+    body {
+      background-color: hsl(47, 88%, 63%);
+    }
+
     .main-container {
       display: flex;
       justify-content: center;
       align-items: center;
       background-color: hsl(0, 0%, 100%);
-      
+      margin: 7vh auto;
+      border-radius: 1.3rem;
+      border: 1.3px solid black;
+      width: 20rem;
+      box-shadow: 7px 7px rgba(0, 0, 0, 1);
     }
 
+    .sub-container {
+      padding: 1.3rem;
+      overflow: hidden;
+      font-family: "Figtree", sans-serif;
+      font-size: 16px;
+    }
 
+    .img-container {
+      width: 300px;
+      margin: 0 auto;
+    }
 
+    .img-container img {
+      overflow: hidden;
+      border-radius: 0.7rem;
+      width: 285px;
+    }
 
-    .attribution { font-size: 11px; text-align: center; }
+    .card-tag {
+      margin-top: 1rem;
+      background-color: hsl(47, 88%, 63%);
+      box-sizing: border-box;
+      text-align: center;
+      width: 5.3rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      border-radius: 3px;
+      font-weight: 800;
+    }
+
+    .sub-container p {
+      color: hsl(0, 0%, 7%);
+      font-weight: 500;
+    }
+
+    .sub-container h3 {
+      font-weight: 800;
+      font: bolder;
+    }
+
+    .sub-container h5 {
+      color: hsl(0, 0%, 42%);
+      font-weight: 500;
+    }
+
+    .avatar-tag {
+      display: flex;
+    }
+
+    .avatar-tag img {
+      width: 30px;
+      height: 30px;
+      padding-right: 0.7rem;
+    }
+
+    .avatar-tag span {
+      font-weight: 800;
+      padding-top: 7px;
+      font-size: 13px;
+    }
+
+    .attribution { font-size: 11px; text-align: center; margin-top: 5px; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
@@ -30,16 +97,20 @@
 
   <div class="main-container">
     <div class="sub-container">
-      <img src="./assets/images/illustration-article.svg" alt="card image">
+      <div class="img-container">
+        <img src="./assets/images/illustration-article.svg" alt="card image">
+      </div>
 
-      <span>Learning</span>
+      <div class="card-tag">Learning</div>
       <p>Published 21 Dec 2023</p>
 
-      <h2>HTML & CSS foundations</h2>
+      <h3>HTML & CSS foundations</h3>
       <h5>These languages are the backbone of every website, defining structure, content, and presentation.</h5>
 
-      <img src="./assets/images/image-avatar.webp" alt="avatar">
-      <span>Greg Hooper</span>
+      <div class="avatar-tag">
+        <img src="./assets/images/image-avatar.webp" alt="avatar">
+        <span>Greg Hooper</span>
+      </div>
     </div>
   </div>
   
