@@ -7,127 +7,46 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
 
   <title>Frontend Mentor | Social links profile</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-    :root {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-    }
-
-    body {
-      background-color: hsl(0, 0%, 8%);
-    }
-
-    .main-container {
-      background-color: hsl(0, 0%, 12%);
-      border-radius: 0.6rem;
-      margin-top: 10vh;
-    }
-
-    .sub-container {
-      padding: 1rem;
-      padding-top: 1.5rem;
-      color: hsl(0, 0%, 100%);
-      font-family: "Inter", sans-serif;
-    }
-
-    .img-container {
-      display: flex;
-      justify-content: center;
-    }
-
-    .img-container img {
-      width: 70px;
-      border-radius: 50px;
-    }
-
-    h2,
-    p {
-      text-align: center;
-    }
-
-    .location {
-      color: hsl(75, 94%, 57%);
-      font-size: 14px;
-      font-weight: 600;
-      margin-top: 10px;
-      margin-bottom: 5px;
-    }
-
-    .links {
-      display: grid;
-      justify-content: center;
-    }
-
-    .links button {
-      display: block;
-      margin: 0.7em;
-      width: 15rem;
-      height: 2.8em;
-      border: none;
-      border-radius: 0.5em;
-      color: hsl(0, 0%, 100%);
-      background-color: hsl(0, 0%, 20%);
-      font-family: "Inter", sans-serif;
-      font-weight: 700;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: hsl(75, 94%, 57%);
-      color: hsl(0, 0%, 12%);
-    }
-
-    .attribution {
-      cursor: pointer;
-      font-size: 11px;
-      text-align: center;
-      color: hsl(0, 0%, 100%);
-      margin-top: 1rem;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
+  <main>
+    <div class="main-container">
+      <div class="sub-container">
+        <div class="img-container">
+          <img src="./assets/images/avatar-jessica.jpeg" alt="avatar">
+        </div>
 
-  <div class="main-container">
-    <div class="sub-container">
-      <div class="img-container">
-        <img src="./assets/images/avatar-jessica.jpeg" alt="avatar">
+
+        <h2 style=" margin-bottom: 7px;"> Jessica Randall</h2>
+        <p class="location">London, United Kingdom</p>
+
+        <p style="font-size: 13px; font-weight: 300; margin-top: 25px;">"Front-end developer and avid reader."</p>
+
+        <div class="links-container">
+          <ul style="padding: 0; margin: 0;">
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Frontend Mentor</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+
       </div>
-
-
-      <h2 style=" margin-bottom: 7px;"> Jessica Randall</h2>
-      <p class="location">London, United Kingdom</p>
-
-      <p style="font-size: 13px; font-weight: 300; margin-top: 25px;">"Front-end developer and avid reader."</p>
-
-      <div class="links">
-        <button>GitHub</button>
-        <button>Frontend Mentor</button>
-        <button>LinkedIn</button>
-        <button>Twitter</button>
-        <button>Instagram</button>
-      </div>
-
     </div>
-  </div>
+  </main>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://github.com/popcorn150" target="_blank">Popcorn150</a>.
-  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/popcorn150" target="_blank">Popcorn150</a>.
+    </div>
+  </footer>
 </body>
 
 </html>

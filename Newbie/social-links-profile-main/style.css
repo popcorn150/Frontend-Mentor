@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+.main-container {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 0.6rem;
+    margin-top: 10vh;
+}
+
+.sub-container {
+    padding: 1.5rem;
+    padding-top: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 70px;
+    border-radius: 50px;
+}
+
+h2,
+p {
+    text-align: center;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.links-container {
+    display: grid;
+    justify-content: center;
+}
+
+.links-container li {
+    margin: 0.7em;
+    width: 15rem;
+    height: 2.8em;
+    border-radius: 0.5em;
+    list-style-type: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 0.870rem;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+a {
+    text-decoration-line: none;
+    color: hsl(0, 0%, 100%);
+}
+
+li:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+li:hover a {
+    color: inherit;
+}
+
+.attribution {
+    cursor: pointer;
+    font-size: 11px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    margin-top: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
