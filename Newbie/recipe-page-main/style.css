@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+}
+
+.main-container {
+    margin: 7.5rem;
+    width: 45.7rem;
+    height: 265vh;
+    border-radius: 1.5rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.img-container img {
+    width: 700px;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    padding-left: 2.5rem;
+    font-size: 2.3rem;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+}
+
+p {
+    font-family: "Outfit", serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1.2rem;
+    padding-left: 2.3rem;
+    line-height: 23px;
+}
+
+.preparation-list {
+    background-color: hsl(330, 100%, 98%);
+    margin: 1rem;
+    margin-left: 2.3rem;
+    height: 11rem;
+    width: 41rem;
+    border-radius: 1rem;
+    font-family: "Outfit", serif;
+}
+
+.preparation-list h3 {
+    padding-left: 1.7rem;
+    padding-top: 1.3rem;
+    letter-spacing: 0.3px;
+    color: hsl(332, 51%, 32%);
+}
+
+.list-container {
+    padding: 0.9rem;
+    padding-left: 3.1rem;
+}
+
+.list-container ::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.list-container li, .ingredient-list li {
+    padding-bottom: 0.7rem;
+    padding-left: 1rem;
+}
+
+.list-container li span {
+    font-weight: 700;
+}
+
+.ingredients-container, .instructions-container {
+    margin-left: 2.4rem;
+    margin-top: 1.7rem;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    width: 41rem;
+}
+
+.ingredients-container h2, .instructions-container h2, .nutrition-container h2 {
+    font-family: "Young Serif", serif;
+    letter-spacing: 2.2px;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredient-list, .instruction-list {
+    padding: 1.4rem;
+    padding-top: 1.5rem;
+    font-family: "Outfit", serif;
+}
+
+.ingredient-list, .instruction-list ::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.instruction-list li {
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    padding-bottom: 0.7rem;
+}
+
+.instruction-list li span, ::marker {
+    font-weight: 700;
+}
+
+.nutrition-container {
+    margin-left: 2.4rem;
+    margin-top: 1.7rem;
+}
+
+.nutrition-container p {
+    padding: 15px 0 15px 0;
+    font-family: "Outfit", serif;
+}
+
+.nutrition-list {
+    width: 41rem;
+}
+
+.nutrition-list ul {
+    list-style-type: none;
+}
+
+.nutrition-list ul li {
+    display: flex;
+    gap: 15rem;
+    padding-left: 2rem;
+    font-family: "Outfit", serif;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition-list ul li .unit {
+    padding-top: 1rem;
+}
+
+.nutrition-list ul li .unit1, .unit2, .unit3 {
+    padding-top: 0.7rem;
+}
+
+.nutrition-list ul li .unit1 {
+    padding-left: 1rem;
+}
+
+.nutrition-list ul li .unit2 {
+    padding-left: 0.5rem;
+}
+
+.nutrition-list ul li .unit3 {
+    padding-left: 2.3rem;
+}
+
+.nutrition-list ul span {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.nutrition-list ul li:last-child {
+    border-bottom: none;
+}
+
+.nutrition-list ul li p {
+    padding-bottom: 0.8rem;
+}
+
+.nutrition-list ul li p .unit {
+    padding-left: 15rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
